@@ -1,0 +1,90 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-header {
+  border-radius: 10px 10px 0 0 !important;
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+.navbar {
+  border-radius: 0 0 10px 10px;
+}
+
+#current-date {
+  font-size: 1.2rem;
+}
+
+.table th {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.pagination .page-link {
+  color: #0d6efd;
+}
+
+/* برای راست‌چین کردن کامل */
+.table {
+  text-align: right;
+}
+
+/* اسکرول بار برای جدول */
+.table-responsive {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+/* استایل برای دکمه‌های عملیات */
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+/* استایل برای مودال */
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.modal-title {
+  font-weight: bold;
+}
+
+/* استایل برای فرم‌ها */
+.form-control, .form-select {
+  border-radius: 5px;
+}
+
+/* استایل برای دکمه‌های ویرایش و حذف */
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
